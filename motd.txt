@@ -1,0 +1,70 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="utf-8">
+<style>
+body{margin:8px;background:#0d0d11;color:#eee;font-family:Tahoma,Verdana,sans-serif;font-size:11px}
+a{color:#ff4d4d;text-decoration:none;font-weight:bold}
+a:hover{color:#fff}
+.t{width:100%;border-collapse:collapse}
+.box{background:#16161d;border:1px solid #292936;border-left:3px solid #d92525;padding:8px;margin-bottom:8px}
+.h{color:#d92525;font-size:12px;font-weight:bold;margin-bottom:6px;border-bottom:1px solid #292936;padding-bottom:2px}
+.c{color:#4ade80;font-family:monospace;font-weight:bold;width:50%}
+.btn{display:block;background:#20202a;padding:3px 6px;margin:3px 0;border:1px solid #333;color:#fff}
+</style>
+</head>
+<body>
+
+<center>
+<b style="color:#d92525;font-size:16px">ATLAS COUNTER-STRIKE</b><br>
+<span style="color:#888;font-size:10px">Bienvenido al servidor | Respeta las reglas</span>
+</center>
+<br>
+
+<table class="t">
+<tr>
+<td width="48%" valign="top">
+
+<div class="box">
+<div class="h">COMUNIDAD</div>
+<a class="btn" href="https://discord.gg/WEC4JD8Pcp" target="_blank">&bull; Discord</a>
+<a class="btn" href="https://steamcommunity.com/groups/ats-atlas" target="_blank">&bull; Steam Group</a>
+<a class="btn" href="https://stt.gg/tX2vDN6t" target="_blank">&bull; Stoat</a>
+</div>
+
+<div class="box">
+<div class="h">CONTACTO / ADMIN</div>
+<a class="btn" href="https://www.instagram.com/atlascs16server?igsi=cm80dTAzaDgzMWlk" target="_blank">&bull; Instagram</a>
+<a class="btn" href="https://www.facebook.com/share/1EzUcbJmfV/" target="_blank">&bull; Facebook</a>
+<a class="btn" href="https://discord.gg/gRZHrHhv" target="_blank">&bull; Discord Admin</a>
+<a class="btn" href="https://steamcommunity.com/id/st_avangard/" target="_blank">&bull; Steam Admin</a>
+<a class="btn" href="mailto:atlascounterstrikeserver@gmail.com">&bull; Email Staff</a>
+</div>
+
+</td>
+<td width="4%"></td>
+<td width="48%" valign="top">
+
+<div class="box">
+<div class="h">COMANDOS DE CHAT</div>
+<table class="t">
+<tr><td class="c">/chathelp</td><td>Ayuda general</td></tr>
+<tr><td class="c">/motd</td><td>Abrir menú</td></tr>
+<tr><td class="c">/discord</td><td>Link Discord</td></tr>
+<tr><td class="c">/stoat</td><td>Link Stoat</td></tr>
+<tr><td class="c">/steam</td><td>Link Steam</td></tr>
+<tr><td class="c">rtv</td><td>Votar mapa</td></tr>
+<tr><td class="c">nominate</td><td>Proponer mapa</td></tr>
+<tr><td class="c">/vipmenu</td><td>Menú VIP</td></tr>
+<tr><td class="c">/dance</td><td>Bailar</td></tr>
+</table>
+</div>
+
+</td>
+</tr>
+</table>
+
+<center style="color:#555;font-size:10px">Atlas CS 1.6 &bull; Prohibido hacks y conducta tóxica</center>
+
+</body>
+</html>
