@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Comunidad CS 1.6 - Servidor & Actualizaciones</title>
+  <style>
+    :root {
+      --bg: #0f1115;
+      --card: #181b22;
+      --accent: #d4a017;
+      --text: #e1e3e6;
+      --muted: #8b949e;
+      --border: #30363d;
+    }
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      background-color: var(--bg);
+      color: var(--text);
+      line-height: 1.6;
+      padding: 20px;
+    }
+    .container {
+      max-width: 750px;
+      margin: 0 auto;
+    }
+    header {
+      text-align: center;
+      padding: 30px 0;
+      border-bottom: 1px solid var(--border);
+    }
+    h1 { margin: 0 0 10px 0; color: var(--accent); }
+    .server-box {
+      background: var(--card);
+      border: 1px solid var(--border);
+      padding: 20px;
+      border-radius: 8px;
+      margin: 25px 0;
+      text-align: center;
+    }
+    .ip {
+      font-family: monospace;
+      font-size: 1.2rem;
+      background: #090a0f;
+      padding: 8px 14px;
+      border-radius: 4px;
+      display: inline-block;
+      margin-bottom: 12px;
+      border: 1px solid var(--border);
+    }
+    .btn {
+      display: inline-block;
+      background: var(--accent);
+      color: #000;
+      padding: 10px 20px;
+      border-radius: 6px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    .btn:hover { opacity: 0.9; }
+    h2 { color: #fff; margin-top: 35px; border-bottom: 1px solid var(--border); padding-bottom: 8px; }
+    .card {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 6px;
+      padding: 15px 20px;
+      margin-bottom: 15px;
+    }
+    .tag {
+      font-size: 0.75rem;
+      background: var(--border);
+      color: var(--muted);
+      padding: 2px 8px;
+      border-radius: 4px;
+      float: right;
+    }
+    ul { margin: 8px 0; padding-left: 20px; }
+    li { margin-bottom: 4px; }
+  </style>
+</head>
+<body>
+
+<div class="container">
+  <header>
+    <h1>MI SERVIDOR CS 1.6</h1>
+    <p style="margin:0; color:var(--muted);">Información oficial, reglas y registro de cambios</p>
+  </header>
+
+  <div class="server-box">
+    <div><strong>Dirección del Servidor:</strong></div>
+    <div class="ip">127.0.0.1:27015</div><br>
+    <a class="btn" href="steam://connect/127.0.0.1:27015">Conectarse vía Steam</a>
+  </div>
+
+  <h2>Historial de Actualizaciones (Changelog)</h2>
+  
+  <div class="card">
+    <span class="tag">15/09/2026</span>
+    <h3 style="margin:0 0 10px 0; font-size:1.1rem; color:var(--accent);">Actualización v1.2</h3>
+    <ul>
+      <li><strong>Plugins:</strong> Se actualizó el sistema de racha y sonidos.</li>
+      <li><strong>Mapas:</strong> Añadido <code>de_tuscan</code> a la rotación principal.</li>
+      <li><strong>Fixes:</strong> Corregido bug donde la C4 quedaba trabada en zonas inaccesibles.</li>
+    </ul>
+  </div>
+
+  <div class="card">
+    <span class="tag">01/09/2026</span>
+    <h3 style="margin:0 0 10px 0; font-size:1.1rem; color:var(--accent);">Lanzamiento v1.0</h3>
+    <ul>
+      <li>Instalación inicial de AMX Mod X y ReGameDLL.</li>
+      <li>Configuración básica de rates y slots reservados.</li>
+    </ul>
+  </div>
+
+  <h2>Reglas del Servidor</h2>
+  <div class="card">
+    <ul>
+      <li>Prohibido el uso de cheats, scripts o modelos ilegales.</li>
+      <li>Respetar a los administradores y resto de jugadores en el chat de voz/texto.</li>
+      <li>Prohibido el mic-spam y música por micrófono.</li>
+    </ul>
+  </div>
+</div>
+
+</body>
+</html>
